@@ -3,3 +3,7 @@
 
 # Requirements
 - Ruby 2.1.6 (windows: http://rubyinstaller.org/downloads/ | mac: https://github.com/sstephenson/rbenv)
+
+## Libraries
+- ActiveRecord
+- Rspec
