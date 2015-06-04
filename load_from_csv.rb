@@ -1,5 +1,6 @@
 require_relative 'lib/Venue.rb'
 
+
 def load_from_csv(csv_path)
 	#check to make sure the csv file is there
 
