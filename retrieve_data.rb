@@ -1,3 +1,5 @@
+require './lib/Venue.rb'
+
 def retrive_data(venue)
 	#grab needed info from the venue
 
@@ -12,7 +14,7 @@ def parse_raw_data(raw_data)
 	#massage that data into an array of hashes.
 end
 
-#Creating a fake venue
+#Creating a fake venue, fill in url and type
 my_venue = Venue.new("some url", :type)
 
 #Given a venue, we are going to get the raw data from the website
