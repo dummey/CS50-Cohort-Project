@@ -10,7 +10,7 @@ class Venue
 
 	def to_s
 		#create pretty print of venue information
-
+		return "%{u} (%{t})" % {u: self.url, t: self.type}
 	end
 
 	def to_json
